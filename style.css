@@ -17,6 +17,9 @@ body {
     background-image: url("tesla.jpg");
     background-size: 100%;
     color: white;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -46,6 +49,16 @@ a {
 
 .links a:hover, a:hover
 {
-    filter: blur(.3px);
+    filter: blur(.4px);
+}
+
+.other {
+    min-height: 100vh;
+    width: auto;
+    background-color: red;
+}
+.other2 {
+    min-height: 100vh;
+    width: auto;
 }
 
