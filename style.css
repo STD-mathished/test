@@ -1,0 +1,51 @@
+@font-face {
+    font-family: tesla;
+    src: url("fonts/TESLA.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width: auto;
+    background-image: url("tesla.jpg");
+    background-size: 100%;
+    color: white;
+
+}
+
+h1 {
+    font-family: tesla;
+    letter-spacing: 10px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 17px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links a:hover, a:hover
+{
+    filter: blur(.3px);
+}
+
